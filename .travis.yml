@@ -1,6 +1,6 @@
 sudo: required
 
-language: java
+language: python
 
 services:
   - docker
@@ -10,3 +10,4 @@ before_install:
 
 script:
  - docker run green /bin/sh -c "ant && ant test;"
+ - python processresults.py
