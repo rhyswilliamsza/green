@@ -1,5 +1,7 @@
 #Inspired from https://stackoverflow.com/questions/1912434/how-do-i-parse-xml-in-python
-
+print("==================================================")
+print("===================== RESULTS=====================")
+print("==================================================")
 import xml.etree.ElementTree as ET
 tree = ET.parse('./bin/junit/TESTS-TestSuites.xml')
 root = tree.getroot()
