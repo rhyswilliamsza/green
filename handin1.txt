@@ -1,0 +1,22 @@
+#Handin-1
+
+###First 
+
+1. First step was to follow up the failing test to the root assert of JUnit.
+
+2. Thus, for this test (20), I followed the test up to the check method, which in turn called the finalCheck method.
+
+3. This finalCheck method performed an assertEquals on two strings. By printing the expected vs return values for this assertEquals,
+I was able to determine the correct expected output for the test, thus fixing the error. 
+
+###More Elegant
+
+Steps 1 & 2 Stay As Is
+
+Instead of printing the expected vs return values for the assertEquals, we can simply change our build.xml.
+If we replace haltonfailure = "yes" with haltonfailure = "no", we ask junit to dump all tests into an html file in ./bin/junit
+We then look through these html files to see the following line:
+
+expected:<[1*v+-1<0]> but was:<[1*v+-1<=0]>
+
+Thus, it is evident that our expected paramteter for our test is incorrect.
