@@ -10,4 +10,3 @@ before_install:
 
 script:
  - docker run green /bin/sh -c "ant && ant test;"
- - python processresults.py

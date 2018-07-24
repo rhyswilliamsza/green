@@ -13,6 +13,7 @@ RUN apt install vim -y
 RUN apt install tmux -y
 RUN apt install patchelf -y
 RUN apt install libgomp1
+RUN apt install python
 
 # Clone down the GreenSolver repository
 RUN git clone https://github.com/rhyswilliamsza/green
@@ -35,3 +36,6 @@ RUN mv z3-4.7.1-x64-ubuntu-16.04/ z3/
 WORKDIR /green/
 RUN sed -i '16s/.*/z3path = \/z3\/z3\/bin\/z3/' build.properties
 RUN sed -i '17s/.*/z3lib = \/z3\/z3\/bin/' build.properties
+
+RUN clear
+RUN python processresults.py
