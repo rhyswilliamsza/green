@@ -1,0 +1,41 @@
+Please note that the 'nice' output from the results can be found at the bottom of the console output. I decided to not hide the build/test console output - as I was not sure if that was required for marking.
+
+An example of the results can be found below.
+
+==================================================
+===================== RESULTS=====================
+==================================================
+Test:  test10 Passed
+Test:  test11 Passed
+Test:  test12 Passed
+Test:  test13 Passed
+Test:  test14 Passed
+Test:  test15 Passed
+Test:  test16 Passed
+Test:  test17 Passed
+Test:  test18 Passed
+Test:  test19 Passed
+Test:  test20 Passed
+Test:  test08 Passed
+Test:  test09 Passed
+Test:  test01 Passed
+Test:  test02 Passed
+Test:  test03 Passed
+Test:  test04 Passed
+Test:  test05 Passed
+Test:  test06 Passed
+Test:  test07 Passed
+Test:  test10 Passed
+Test:  test11 Passed
+Test:  test12 Passed
+Test:  test13 Passed
+Test:  test14 Passed
+Test:  test08 Passed
+Test:  test09 Passed
+Test:  test01 Passed
+Test:  test02 Passed
+Test:  test03 Passed
+Test:  test04 Passed
+Test:  test05 Passed
+Test:  test06 Passed
+Test:  test07 Passed
