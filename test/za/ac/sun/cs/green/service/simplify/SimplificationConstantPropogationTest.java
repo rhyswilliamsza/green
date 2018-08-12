@@ -41,6 +41,7 @@ public class SimplificationConstantPropogationTest {
 		}
 
 	private void finalCheck(String observed, String expected) {
+		System.out.println("Expected " + expected + ", Received " + observed);
 		assertEquals(expected, observed);
 	}
 
